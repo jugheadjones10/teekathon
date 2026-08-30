@@ -1,3 +1,5 @@
+import json
+
 import pytest
 from pydantic import ValidationError
 
@@ -13,7 +15,7 @@ def test_detected_region_accepts_a_valid_normalized_box() -> None:
         needs_review=False,
     )
 
-    assert region.box_2d == (100, 50, 900, 950)
+    assert region.box_2d == [100, 50, 900, 950]
 
 
 @pytest.mark.parametrize(
@@ -42,3 +44,9 @@ def test_page_detections_defaults_to_no_regions() -> None:
     result = PageDetections(page_number=4)
 
     assert result.regions == []
+
+
+def test_page_detection_json_schema_uses_homogeneous_arrays() -> None:
+    schema_text = json.dumps(PageDetections.model_json_schema())
+
+    assert "prefixItems" not in schema_text

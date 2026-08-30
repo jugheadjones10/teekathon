@@ -1,5 +1,6 @@
 import math
 import re
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -24,7 +25,7 @@ class PageArtifacts:
 
 
 def normalized_box_to_pixels(
-    box_2d: tuple[int, int, int, int],
+    box_2d: Sequence[int],
     *,
     width: int,
     height: int,
