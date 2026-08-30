@@ -6,7 +6,7 @@ from typing import Any
 
 from google import genai
 
-from gemini_paper_crop.models import PageDetections
+from gemini_paper_crop.models import PageDetections, gemini_response_schema
 
 
 @dataclass(frozen=True)
@@ -56,7 +56,7 @@ class GeminiDetector:
             response_format={
                 "type": "text",
                 "mime_type": "application/json",
-                "schema": PageDetections.model_json_schema(),
+                "schema": gemini_response_schema(),
             },
             generation_config={"thinking_level": self.thinking_level},
         )

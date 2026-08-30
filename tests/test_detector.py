@@ -57,3 +57,6 @@ def test_detector_sends_high_resolution_image_and_structured_schema(
     assert image_input["data"]
     assert interactions.request["input"][1]["text"].endswith("Page number: 3")
     assert interactions.request["response_format"]["mime_type"] == ("application/json")
+    response_schema = interactions.request["response_format"]["schema"]
+    assert "$defs" not in response_schema
+    assert response_schema["required"] == ["page_number", "regions"]

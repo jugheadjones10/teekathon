@@ -1,4 +1,4 @@
-from typing import Literal
+from typing import Any, Literal
 
 from pydantic import BaseModel, Field, field_validator
 
@@ -43,3 +43,39 @@ class DetectedRegion(BaseModel):
 class PageDetections(BaseModel):
     page_number: int = Field(ge=1, description="One-based source PDF page number.")
     regions: list[DetectedRegion] = Field(default_factory=list, max_length=100)
+
+
+def gemini_response_schema() -> dict[str, Any]:
+    """Return a compact wire schema; Pydantic enforces stricter limits locally."""
+    return {
+        "type": "object",
+        "properties": {
+            "page_number": {"type": "integer"},
+            "regions": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "type": "string",
+                            "enum": [
+                                "mcq_question",
+                                "oe_question",
+                                "ak_mcq",
+                                "ak_oe",
+                            ],
+                        },
+                        "question_number": {"type": ["string", "null"]},
+                        "fragment_index": {"type": "integer"},
+                        "box_2d": {
+                            "type": "array",
+                            "items": {"type": "integer"},
+                        },
+                        "needs_review": {"type": "boolean"},
+                    },
+                    "required": ["type", "box_2d"],
+                },
+            },
+        },
+        "required": ["page_number", "regions"],
+    }
