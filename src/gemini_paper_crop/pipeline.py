@@ -1,4 +1,5 @@
 import json
+from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Protocol
@@ -75,6 +76,7 @@ def run_paper(
     padding: int = 12,
     page_limit: int | None = None,
     resume: bool = False,
+    progress: Callable[[str], None] | None = None,
 ) -> PaperRunResult:
     pages_dir = paper_dir / "pages"
     detections_dir = paper_dir / "detections"
@@ -88,6 +90,11 @@ def run_paper(
 
     page_results: list[PageRunResult] = []
     for rendered in rendered_pages:
+        if progress:
+            progress(
+                f"  page {rendered.page_number}/{len(rendered_pages)}"
+                f"{' (resume)' if resume else ''}"
+            )
         detection_path = detections_dir / f"page-{rendered.page_number:03d}.json"
         was_resumed = False
         try:

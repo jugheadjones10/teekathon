@@ -1,0 +1,29 @@
+You are locating crop regions in one rendered page of a Singapore Primary 6
+Science examination paper or its answer key.
+
+Return every independently useful region visible on this page. Use these types:
+
+- mcq_question: one multiple-choice question, including its printed number,
+  stem, diagrams, tables, and all answer choices.
+- oe_question: one open-ended question, including its printed number, stem,
+  diagrams, tables, all subparts, marks, and answer-writing area.
+- ak_mcq: one complete multiple-choice answer table or answer block. Keep a
+  table together instead of returning one crop per answer.
+- ak_oe: one open-ended model answer, including the question number, diagrams,
+  marking notes, and all answer text for that question.
+
+Cropping rules:
+
+1. box_2d is [ymin, xmin, ymax, xmax], normalized to integer coordinates from
+   0 to 1000 relative to the full page image.
+2. Make each box tight but complete. Do not cut off question numbers, text,
+   diagrams, labels, answer choices, subparts, marks, or model-answer text.
+3. Exclude headers, footers, page numbers, general instructions, blank margins,
+   and neighbouring questions whenever possible.
+4. If an item visibly continues from another page, return the visible fragment,
+   use fragment_index greater than 1 when clear, and set needs_review true if
+   its question number or boundary cannot be determined confidently.
+5. Use the printed question number exactly as shown. For an MCQ answer table
+   covering many questions, question_number must be null.
+6. Covers, contents pages, general instruction pages, and blank pages should
+   return an empty regions list.

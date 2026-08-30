@@ -6,7 +6,7 @@ import pymupdf
 from gemini_paper_crop.detector import DetectionCall
 from gemini_paper_crop.models import DetectedRegion, PageDetections
 from gemini_paper_crop.pipeline import run_paper
-from gemini_paper_crop.report import write_paper_report
+from gemini_paper_crop.report import write_paper_report, write_run_index
 
 
 class FakeDetector:
@@ -115,3 +115,24 @@ def test_write_paper_report_links_visual_artifacts(tmp_path: Path) -> None:
     assert "page-001.png" in html
     assert "oe_question" in html
     assert "Question 21" in html
+
+
+def test_write_run_index_links_each_paper_report(tmp_path: Path) -> None:
+    pdf_path = tmp_path / "paper.pdf"
+    make_pdf(pdf_path)
+    run_dir = tmp_path / "run"
+    result = run_paper(
+        pdf_path,
+        run_dir / "paper",
+        detector=FakeDetector(),
+        prompt="Find regions",
+        dpi=72,
+    )
+    write_paper_report(result)
+
+    index_path = write_run_index(run_dir, [result])
+
+    html = index_path.read_text()
+    assert "paper.pdf" in html
+    assert 'href="paper/report.html"' in html
+    assert "1 detected region" in html

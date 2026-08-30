@@ -94,3 +94,42 @@ pre {{ overflow-wrap: anywhere; white-space: pre-wrap; }}
     report_path = result.paper_dir / "report.html"
     report_path.write_text(report)
     return report_path
+
+
+def write_run_index(run_dir: Path, results: list[PaperRunResult]) -> Path:
+    cards: list[str] = []
+    for result in results:
+        relative_report = (result.paper_dir / "report.html").relative_to(run_dir)
+        region_count = sum(len(page.crops) for page in result.pages)
+        error_count = sum(page.error is not None for page in result.pages)
+        cards.append(
+            "<li>"
+            f'<a href="{html.escape(relative_report.as_posix())}">'
+            f"{html.escape(result.pdf_name)}</a>"
+            f"<span>{region_count} detected region"
+            f"{'s' if region_count != 1 else ''} · {error_count} page errors</span>"
+            "</li>"
+        )
+
+    index = f"""<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gemini paper crop run</title>
+<style>
+body {{ font: 17px/1.5 system-ui, sans-serif; margin: 0 auto;
+  max-width: 920px; padding: 32px; color: #17212b; }}
+ul {{ list-style: none; padding: 0; }}
+li {{ border: 1px solid #ccd2d8; border-radius: 10px; margin: 12px 0;
+  padding: 18px; }}
+a {{ display: block; font-size: 1.05rem; font-weight: 700; }}
+span {{ color: #52606d; }}
+</style>
+<h1>Gemini paper crop run</h1>
+<p>Open a paper to inspect its rendered pages, overlays, and crops.</p>
+<ul>{"".join(cards)}</ul>
+</html>
+"""
+    index_path = run_dir / "index.html"
+    index_path.write_text(index)
+    return index_path
