@@ -107,19 +107,26 @@ For this task, 100% means:
 - there are no extra regions; and
 - every predicted box has at least 0.90 IoU with its annotation.
 
+Your solution will also be evaluated on cost efficiency: achieve the required
+accuracy with as little paid AI usage as possible. Include your actual total
+spend and a short cost breakdown in your final results.
+
 ## AI credits
 
-You may receive up to **US$100 in total AI-platform credits** for this project.
-Before spending any credits, submit a short proposal stating:
+You may receive up to **US$80 in total AI-platform credits** for this project.
+Before spending any credits, send a short proposal in the **Teekathon WhatsApp
+group** stating:
 
 - how much you are requesting;
 - which service you will use; and
 - how you expect to spend the credits.
 
 Wait for approval before spending. You may request the budget in stages—for
-example, US$50 initially and more later—but all approved requests combined
-cannot exceed US$100. Tinker is our recommended service for this fine-tuning
+example, US$40 initially and more later—but all approved requests combined
+cannot exceed US$80. Tinker is our recommended service for this fine-tuning
 task, although you may propose another AI platform.
+
+You may also use the Teekathon WhatsApp group to clarify any project questions.
 
 ## What to submit
 
