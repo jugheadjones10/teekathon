@@ -1,0 +1,54 @@
+{
+  "model": "gemini-3.5-flash",
+  "interaction_id": "v1_Chczdi1UYXZpck43LTFnOFVQOWVUYnVRRRIXM3YtVGF2aXJONy0xZzhVUDllVGJ1UUU",
+  "elapsed_seconds": 6.473313875030726,
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1092
+      },
+      {
+        "modality": "text",
+        "tokens": 396
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 1488,
+    "total_output_tokens": 184,
+    "total_thought_tokens": 431,
+    "total_tokens": 2103,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 1784
+  },
+  "detections": {
+    "page_number": 4,
+    "regions": [
+      {
+        "type": "mcq_question",
+        "question_number": "3",
+        "fragment_index": 1,
+        "box_2d": [
+          138,
+          186,
+          508,
+          803
+        ],
+        "needs_review": false
+      },
+      {
+        "type": "mcq_question",
+        "question_number": "4",
+        "fragment_index": 1,
+        "box_2d": [
+          538,
+          187,
+          806,
+          800
+        ],
+        "needs_review": false
+      }
+    ]
+  },
+  "raw_text": "{\n  \"page_number\": 4,\n  \"regions\": [\n    {\n      \"type\": \"mcq_question\",\n      \"box_2d\": [\n        138,\n        186,\n        508,\n        803\n      ],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"3\"\n    },\n    {\n      \"type\": \"mcq_question\",\n      \"box_2d\": [\n        538,\n        187,\n        806,\n        800\n      ],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"4\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "oe/paper1/5/question.jpg",
+    "oe/paper1/20/question.jpg",
+    "oe/paper1/30/question.jpg",
+    "ak/paper2/1/answer.jpg",
+    "ak/paper2/3/answer.jpg",
+    "ak/paper2/7/answer.jpg"
+  ],
+  "label_edits": {
+    "oe/paper1/16.1/question.jpg": "16",
+    "oe/paper1/17.1/question.jpg": "17",
+    "oe/paper2/9]/question.jpg": "9"
+  },
+  "created_items": [
+    {
+      "path": "oe/paper2/1/question.jpg",
+      "label": "1",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/2/question.jpg",
+      "label": "2",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/3/question.jpg",
+      "label": "3",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/4/question.jpg",
+      "label": "4",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/5/question.jpg",
+      "label": "5",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/6/question.jpg",
+      "label": "6",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/7/question.jpg",
+      "label": "7",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/8/question.jpg",
+      "label": "8",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/9]/question.jpg",
+      "label": "9]",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/10/question.jpg",
+      "label": "10",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/11/question.jpg",
+      "label": "11",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/12/question.jpg",
+      "label": "12",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/13/question.jpg",
+      "label": "13",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/14/question.jpg",
+      "label": "14",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/15/question.jpg",
+      "label": "15",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/16/question.jpg",
+      "label": "16",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/17/question.jpg",
+      "label": "17",
+      "type": "oe_question"
+    },
+    {
+      "path": "ak/mcq/created_1.jpg",
+      "label": "1",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_2.jpg",
+      "label": "2",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_3.jpg",
+      "label": "3",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_4.jpg",
+      "label": "4",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_5.jpg",
+      "label": "5",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_6.jpg",
+      "label": "6",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_7.jpg",
+      "label": "7",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_8.jpg",
+      "label": "8",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_9.jpg",
+      "label": "9",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_10.jpg",
+      "label": "10",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_11.jpg",
+      "label": "11",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_12.jpg",
+      "label": "12",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_13.jpg",
+      "label": "13",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_14.jpg",
+      "label": "14",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_15.jpg",
+      "label": "15",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/paper1/16/answer.jpg",
+      "label": "16",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/2/answer.jpg",
+      "label": "2",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/4/answer.jpg",
+      "label": "4",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/5/answer.jpg",
+      "label": "5",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/6/answer.jpg",
+      "label": "6",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/8/answer.jpg",
+      "label": "8",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/9/answer.jpg",
+      "label": "9",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/10/answer.jpg",
+      "label": "10",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/11/answer.jpg",
+      "label": "11",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/12/answer.jpg",
+      "label": "12",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/13/answer.jpg",
+      "label": "13",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/14/answer.jpg",
+      "label": "14",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/15/answer.jpg",
+      "label": "15",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/16/answer.jpg",
+      "label": "16",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/17/answer.jpg",
+      "label": "17",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [
+    "mcq/10_1.jpg",
+    "mcq/10_2.jpg",
+    "mcq/10_4.jpg",
+    "mcq/11_1.jpg",
+    "mcq/10_3.jpg",
+    "mcq/9_1.jpg",
+    "mcq/9_2.jpg",
+    "mcq/9_3.jpg",
+    "mcq/9_4.jpg",
+    "oe/paper1/1/question.jpg",
+    "oe/paper1/2/question.jpg",
+    "oe/paper1/3/question.jpg",
+    "oe/paper1/4/question.jpg",
+    "oe/paper1/5/question.jpg",
+    "oe/paper1/6/question.jpg",
+    "oe/paper1/7/question.jpg",
+    "oe/paper1/8/question.jpg",
+    "oe/paper1/9/question.jpg",
+    "oe/paper1/10/question.jpg",
+    "oe/paper1/11/question.jpg",
+    "oe/paper1/12/question.jpg",
+    "oe/paper1/13/question.jpg",
+    "oe/paper1/14/question.jpg",
+    "oe/paper1/15/question.jpg",
+    "oe/paper1/16.1/question.jpg",
+    "oe/paper1/17.1/question.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "oe_paper2",
+    "ak_mcq",
+    "ak_oe_paper1",
+    "ak_oe_paper2"
+  ],
+  "multi_crop_metadata": {}
+}

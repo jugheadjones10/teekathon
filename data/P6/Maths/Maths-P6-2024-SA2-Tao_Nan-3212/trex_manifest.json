@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/2_1.jpg",
+    "mcq/2_2.jpg",
+    "mcq/3_1.jpg",
+    "mcq/4_1.jpg",
+    "mcq/4_2.jpg",
+    "mcq/5_1.jpg",
+    "oe/paper1/20/question.jpg",
+    "oe/paper1/24/question.jpg",
+    "oe/paper1/25/question.jpg",
+    "oe/paper1/30/question.jpg",
+    "oe/paper2/5/question.jpg",
+    "ak/paper1/30/answer.jpg"
+  ],
+  "label_edits": {
+    "mcq/7_1.jpg": "7",
+    "mcq/7_2.jpg": "8",
+    "mcq/7_3.jpg": "9",
+    "mcq/8_1.jpg": "10",
+    "mcq/8_2.jpg": "11",
+    "mcq/8_3.jpg": "12",
+    "mcq/9_1.jpg": "13",
+    "mcq/9_2.jpg": "14",
+    "mcq/10_1.jpg": "15"
+  },
+  "created_items": [
+    {
+      "path": "oe/paper1/26/question.jpg",
+      "label": "26",
+      "type": "oe_question"
+    }
+  ],
+  "deleted_items": [
+    "mcq/5_2.jpg",
+    "mcq/5_3.jpg",
+    "mcq/6_1.jpg",
+    "mcq/6_2.jpg",
+    "mcq/6_3.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": null,
+  "multi_crop_metadata": {}
+}

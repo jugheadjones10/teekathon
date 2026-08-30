@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/4_1.jpg",
+    "oe/paper1/20/question.jpg",
+    "oe/paper1/30/question.jpg",
+    "oe/paper2/5/question.jpg",
+    "ak/mcq/AK.1.jpg"
+  ],
+  "label_edits": {
+    "oe/paper1/30/question.jpg": "28"
+  },
+  "created_items": [],
+  "deleted_items": [
+    "ak/mcq/AK.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": null,
+  "multi_crop_metadata": {}
+}

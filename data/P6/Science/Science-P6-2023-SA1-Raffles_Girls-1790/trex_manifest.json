@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/3_1.jpg",
+    "mcq/10_1.jpg",
+    "mcq/11_1.jpg",
+    "mcq/16_1.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [],
+  "deleted_items": [],
+  "active_sections": null
+}

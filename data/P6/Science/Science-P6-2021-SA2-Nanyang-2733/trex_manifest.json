@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "oe/paper1/30/question.jpg",
+    "oe/paper1/36/question.jpg",
+    "oe/paper1/39/question.jpg",
+    "oe/paper1/40/question.jpg",
+    "ak/paper1/33/answer.jpg",
+    "ak/paper1/35/answer.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [
+    {
+      "path": "ak/paper1/29/answer.jpg",
+      "label": "29",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/30/answer.jpg",
+      "label": "30",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/31/answer.jpg",
+      "label": "31",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/32/answer.jpg",
+      "label": "32",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/33/answer.jpg",
+      "label": "33",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/36/answer.jpg",
+      "label": "36",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/39/answer.jpg",
+      "label": "39",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/40/answer.jpg",
+      "label": "40",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [
+    "ak/paper2/40/answer.jpg",
+    "ak/paper2/1/answer.jpg",
+    "ak/paper2/3/answer.jpg"
+  ],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "ak_mcq",
+    "ak_oe_paper1"
+  ]
+}

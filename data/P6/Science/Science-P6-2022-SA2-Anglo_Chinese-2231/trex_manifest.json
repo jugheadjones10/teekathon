@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/3_1.jpg",
+    "mcq/13_1.jpg",
+    "mcq/14_1.jpg",
+    "mcq/18_1.jpg",
+    "oe/paper1/32/question.jpg",
+    "oe/paper1/31/question.jpg",
+    "oe/paper1/34/question.jpg",
+    "oe/paper1/36/question.jpg",
+    "oe/paper1/30/question.jpg",
+    "oe/paper1/29/question.jpg",
+    "oe/paper1/33/question.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [
+    {
+      "path": "oe/paper1/32/question.jpg",
+      "label": "32",
+      "type": "oe_question"
+    }
+  ],
+  "deleted_items": [
+    "oe/paper1/32/question.jpg"
+  ],
+  "active_sections": null
+}

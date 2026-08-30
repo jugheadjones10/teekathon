@@ -1,0 +1,107 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/5_1.jpg",
+    "mcq/5_2.jpg",
+    "oe/paper1/20/question.jpg",
+    "oe/paper1/30/question.jpg",
+    "oe/paper2/5/question.jpg",
+    "ak/paper1/1/answer.jpg",
+    "ak/paper1/6/answer.jpg",
+    "ak/paper1/11/answer.jpg",
+    "ak/paper1/16/answer.jpg",
+    "ak/paper1/18/answer.jpg",
+    "ak/paper1/20/answer.jpg",
+    "ak/paper1/22/answer.jpg",
+    "ak/paper1/24/answer.jpg",
+    "ak/paper1/26/answer.jpg",
+    "ak/paper1/28/answer.jpg",
+    "ak/paper1/30/answer.jpg",
+    "ak/paper2/1/answer.jpg",
+    "ak/paper2/3/answer.jpg",
+    "ak/paper2/5/answer.jpg",
+    "ak/paper2/7/answer.jpg",
+    "ak/paper2/9/answer.jpg",
+    "ak/paper2/11/answer.jpg",
+    "ak/paper2/13/answer.jpg",
+    "ak/paper2/15/answer.jpg",
+    "ak/paper2/17/answer.jpg"
+  ],
+  "label_edits": {
+    "ak/paper1/1/answer.jpg": "16",
+    "ak/paper1/6/answer.jpg": "17",
+    "ak/paper1/11/answer.jpg": "18",
+    "ak/paper1/16/answer.jpg": "19",
+    "ak/paper1/18/answer.jpg": "20",
+    "ak/paper1/20/answer.jpg": "21"
+  },
+  "created_items": [
+    {
+      "path": "oe/paper2/1/question.jpg",
+      "label": "1",
+      "type": "oe_question"
+    },
+    {
+      "path": "ak/paper1/23/answer.jpg",
+      "label": "23",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/25/answer.jpg",
+      "label": "25",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/27/answer.jpg",
+      "label": "27",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/29/answer.jpg",
+      "label": "29",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/2/answer.jpg",
+      "label": "2",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/4/answer.jpg",
+      "label": "4",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/6/answer.jpg",
+      "label": "6",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/8/answer.jpg",
+      "label": "8",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/10/answer.jpg",
+      "label": "10",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/12/answer.jpg",
+      "label": "12",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/14/answer.jpg",
+      "label": "14",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper2/16/answer.jpg",
+      "label": "16",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [],
+  "active_sections": null
+}

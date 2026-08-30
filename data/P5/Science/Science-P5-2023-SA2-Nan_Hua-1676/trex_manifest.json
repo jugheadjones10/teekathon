@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "oe/paper1/38/question.jpg",
+    "oe/paper1/41/question.jpg",
+    "ak/paper1/1_2/answer.jpg",
+    "ak/paper1/10/answer.jpg",
+    "ak/paper1/37/answer.jpg"
+  ],
+  "label_edits": {
+    "mcq/10_1.jpg": "14",
+    "mcq/11_1.jpg": "15",
+    "mcq/11_2.jpg": "16",
+    "mcq/12_1.jpg": "17",
+    "mcq/13_1.jpg": "18",
+    "mcq/14_1.jpg": "19",
+    "mcq/14_2.jpg": "20",
+    "mcq/15_1.jpg": "21",
+    "mcq/15_2.jpg": "22",
+    "mcq/16_1.jpg": "23",
+    "mcq/17_1.jpg": "24",
+    "mcq/17_2.jpg": "25",
+    "mcq/18_1.jpg": "26",
+    "mcq/19_1.jpg": "27",
+    "mcq/20_1.jpg": "28",
+    "mcq/2_1.jpg": "1",
+    "mcq/3_1.jpg": "2",
+    "mcq/4_1.jpg": "3",
+    "mcq/4_2.jpg": "4",
+    "mcq/4_3.jpg": "5",
+    "mcq/5_1.jpg": "6",
+    "mcq/5_2.jpg": "7",
+    "mcq/6_1.jpg": "8",
+    "mcq/7_1.jpg": "9",
+    "mcq/7_2.jpg": "10",
+    "mcq/8_1.jpg": "11",
+    "mcq/8_2.jpg": "12",
+    "mcq/9_1.jpg": "13",
+    "oe/paper1/38/question.jpg": "36",
+    "oe/paper1/38.1/question.jpg": "38",
+    "oe/paper1/39.1/question.jpg": "39",
+    "ak/paper1/1_2/answer.jpg": "39",
+    "ak/paper1/10/answer.jpg": "31"
+  },
+  "created_items": [
+    {
+      "path": "ak/paper1/30/answer.jpg",
+      "label": "30",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/29/answer.jpg",
+      "label": "29",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/32/answer.jpg",
+      "label": "32",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/33/answer.jpg",
+      "label": "33",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/34/answer.jpg",
+      "label": "34",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/35/answer.jpg",
+      "label": "35",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/36/answer.jpg",
+      "label": "36",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/37/answer.jpg",
+      "label": "37",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/38/answer.jpg",
+      "label": "38",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/40/answer.jpg",
+      "label": "40",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/41/answer.jpg",
+      "label": "41",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [
+    "mcq/1_1.jpg",
+    "oe/paper1/39/question.jpg",
+    "ak/paper1/5/answer.jpg",
+    "ak/paper1/7/answer.jpg",
+    "ak/paper1/4/answer.jpg",
+    "ak/paper1/4/answer.1.jpg",
+    "ak/paper1/2/answer.jpg",
+    "ak/paper1/1/answer.jpg",
+    "ak/paper1/6/answer.jpg",
+    "ak/paper1/8/answer.jpg",
+    "ak/paper1/3/answer.jpg"
+  ],
+  "moved_items": [
+    "ak/paper1/10/answer.jpg",
+    "ak/paper1/1_2/answer.jpg"
+  ],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "ak_mcq",
+    "ak_oe_paper1"
+  ],
+  "multi_crop_metadata": {
+    "ak/paper1/10/answer.jpg": [
+      {
+        "page_number": 41,
+        "x0": 90.01586547206472,
+        "y0": 359.2196412683859,
+        "x1": 539.2395335987725,
+        "y1": 382.3226463343294
+      },
+      {
+        "page_number": 41,
+        "x0": 84.88188069347376,
+        "y0": 441.36365928062963,
+        "x1": 535.816877079712,
+        "y1": 520.0850098756964
+      }
+    ],
+    "ak/paper1/1_2/answer.jpg": [
+      {
+        "page_number": 42,
+        "x0": 88.3045372125344,
+        "y0": 298.78816968385775,
+        "x1": 536.6725412094771,
+        "y1": 393.7671905105144
+      },
+      {
+        "page_number": 42,
+        "x0": 85.73754482323892,
+        "y0": 458.79787143687395,
+        "x1": 536.6725412094771,
+        "y1": 486.1792107742885
+      }
+    ]
+  }
+}

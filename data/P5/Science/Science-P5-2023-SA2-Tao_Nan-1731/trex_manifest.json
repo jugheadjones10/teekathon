@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "mcq/11_1.jpg",
+    "mcq/7_2.jpg",
+    "mcq/9_1.jpg"
+  ],
+  "label_edits": {
+    "mcq/10_1.jpg": "16",
+    "mcq/11_1.jpg": "17",
+    "mcq/12_1.jpg": "18",
+    "mcq/13_1.jpg": "19",
+    "mcq/14_1.jpg": "20",
+    "mcq/14_2.jpg": "21",
+    "mcq/15_1.jpg": "22",
+    "mcq/16_1.jpg": "23",
+    "mcq/16_2.jpg": "24",
+    "mcq/17_1.jpg": "25",
+    "mcq/18_1.jpg": "26",
+    "mcq/18_2.jpg": "27",
+    "mcq/19_1.jpg": "28",
+    "mcq/1_1.jpg": "1",
+    "mcq/2_1.jpg": "2",
+    "mcq/2_2.jpg": "3",
+    "mcq/3_1.jpg": "4",
+    "mcq/4_1.jpg": "5",
+    "mcq/4_2.jpg": "6",
+    "mcq/5_1.jpg": "7",
+    "mcq/5_2.jpg": "8",
+    "mcq/6_1.jpg": "9",
+    "mcq/6_2.jpg": "10",
+    "mcq/7_1.jpg": "11",
+    "mcq/7_2.jpg": "12",
+    "mcq/8_1.jpg": "13",
+    "mcq/8_2.jpg": "14",
+    "mcq/9_1.jpg": "15"
+  },
+  "created_items": [],
+  "deleted_items": [
+    "ak/paper1/2/answer.jpg",
+    "ak/paper1/3/answer.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": null,
+  "multi_crop_metadata": {}
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "oe/paper1/8/question.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [],
+  "deleted_items": [
+    "ak/paper1/1/answer.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": null,
+  "multi_crop_metadata": {}
+}

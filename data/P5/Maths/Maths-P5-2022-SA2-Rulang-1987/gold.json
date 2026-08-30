@@ -1,0 +1,901 @@
+{
+  "schema_version": 1,
+  "id": "Maths-P5-2022-SA2-Rulang-1987",
+  "filename": "Maths-P5-2022-SA2-Rulang-1987.pdf",
+  "level": "P5",
+  "subject": "Maths",
+  "source_pdf": "source.pdf",
+  "regions": [
+    {
+      "type": "mcq_question",
+      "label": "1",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/1/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/2_1.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "2",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/2/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/2_2.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "3",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/3/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/2_3.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "4",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/4/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/2_4.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "5",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/5/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/2_5.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "6",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/6/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/3_1.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "7",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/7/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/3_2.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "8",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/8/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/3_3.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "9",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/9/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/3_4.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "10",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/10/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/3_5.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "11",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/11/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/4_1.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "12",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/12/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/4_2.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "13",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/13/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/4_3.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "14",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/14/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/4_4.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "15",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/15/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/5_1.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "16",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/16/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/16/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "17",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/17/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/17/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "18",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/18/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/18/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "19",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/19/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/19/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "20",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/20/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/20/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "21",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/21/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/21/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "22",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/22/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/22/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "23",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/23/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/23/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "24",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/24/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/24/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "25",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/25/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/25/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "26",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/26/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/26/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "27",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/27/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/27/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "28",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/28/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/28/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "29",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/29/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/29/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "30",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/30/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/30/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "1",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/1/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/1/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "2",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/2/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/2/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "3",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/3/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/3/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "4",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/4/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/4/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "5",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/5/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/5/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "6",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/6/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/6/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "7",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/7/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/7/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "8",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/8/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/8/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "9",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/9/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/9/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "10",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/10/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/10/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "11",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/11/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/11/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "12",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/12/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/12/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "13",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/13/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/13/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "14",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/14/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/14/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "15",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/15/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/15/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "16",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/16/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/16/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "17",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_question/paper2/17/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper2/17/question.jpg"
+      ]
+    },
+    {
+      "type": "mcq_answer_key",
+      "label": null,
+      "paper": null,
+      "fragments": [
+        "gold/mcq_answer_key/all/unlabelled/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/mcq/AK.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "1",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/1/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/1/answer.1.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "16",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/16/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/16/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "17",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/17/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/17/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "18",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/18/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/18/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "19",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/19/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/19/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "20",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/20/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/20/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "21",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/21/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/21/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "22",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/22/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/22/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "23",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/23/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/23/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "24",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/24/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/24/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "25",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/25/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/25/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "26",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/26/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/26/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "27",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/27/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/27/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "28",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/28/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/28/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "29",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/29/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/29/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "30",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/30/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/30/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "1",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/1/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/1/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "2",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/2/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/2/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "3",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/3/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/3/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "4",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/4/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/4/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "5",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/5/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/5/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "6",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/6/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/6/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "7",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/7/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/7/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "8",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/8/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/8/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "9",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/9/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/9/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "10",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/10/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/10/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "11",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/11/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/11/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "12",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/12/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/12/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "13",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/13/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/13/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "14",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/14/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/14/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "15",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/15/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/15/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "16",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/16/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/16/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "17",
+      "paper": 2,
+      "fragments": [
+        "gold/oe_answer_key/paper2/17/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper2/17/answer.jpg"
+      ]
+    }
+  ]
+}

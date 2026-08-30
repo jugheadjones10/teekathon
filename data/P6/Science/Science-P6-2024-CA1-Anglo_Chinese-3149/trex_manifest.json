@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/1_1.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [],
+  "deleted_items": [],
+  "active_sections": null
+}

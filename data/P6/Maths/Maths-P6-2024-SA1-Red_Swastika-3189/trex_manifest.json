@@ -1,0 +1,103 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "oe/paper1/13/question.jpg",
+    "ak/mcq/created_1.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [
+    {
+      "path": "ak/mcq/created_1.jpg",
+      "label": "1",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_2.jpg",
+      "label": "2",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_3.jpg",
+      "label": "3",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_4.jpg",
+      "label": "4",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/mcq/created_5.jpg",
+      "label": "5",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/paper1/6/answer.jpg",
+      "label": "6",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/7/answer.jpg",
+      "label": "7",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/8/answer.jpg",
+      "label": "8",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/9/answer.jpg",
+      "label": "9",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/10/answer.jpg",
+      "label": "10",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/11/answer.jpg",
+      "label": "11",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/12/answer.jpg",
+      "label": "12",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/13/answer.jpg",
+      "label": "13",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/14/answer.jpg",
+      "label": "14",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/15/answer.jpg",
+      "label": "15",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/16/answer.jpg",
+      "label": "16",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [
+    "oe/paper2/10/question.jpg",
+    "oe/paper2/11/question.jpg",
+    "oe/paper2/12/question.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "ak_mcq",
+    "ak_oe_paper1"
+  ],
+  "multi_crop_metadata": {}
+}

@@ -1,0 +1,11 @@
+{
+  "model": "gemini-3.5-flash",
+  "thinking_level": "medium",
+  "dpi": 200,
+  "padding": 12,
+  "page_limit": 3,
+  "prompt": "prompts/crop-v1.txt",
+  "papers": [
+    "Science-P6-2024-CA1-Anglo_Chinese-3149.pdf"
+  ]
+}

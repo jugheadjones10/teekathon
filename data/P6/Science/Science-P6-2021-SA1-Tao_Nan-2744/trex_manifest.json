@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "mcq/1_1.jpg",
+    "mcq/2_2.jpg",
+    "mcq/13_1.jpg",
+    "oe/paper1/35/question.jpg",
+    "oe/paper1/36/question.jpg",
+    "oe/paper1/37/question.jpg",
+    "oe/paper1/38/question.jpg",
+    "ak/paper1/35/answer.jpg",
+    "ak/paper1/36/answer.jpg"
+  ],
+  "label_edits": {
+    "mcq/2_1.jpg": "3",
+    "mcq/2_2.jpg": "4",
+    "mcq/3_1.jpg": "5",
+    "mcq/4_1.jpg": "7",
+    "mcq/5_1.jpg": "10",
+    "mcq/6_1.jpg": "11",
+    "mcq/6_2.jpg": "12",
+    "mcq/7_1.jpg": "13",
+    "mcq/8_1.jpg": "14",
+    "mcq/9_1.jpg": "15",
+    "mcq/10_1.jpg": "16",
+    "mcq/11_1.jpg": "17",
+    "mcq/11_2.jpg": "18",
+    "mcq/12_1.jpg": "19",
+    "mcq/13_1.jpg": "20",
+    "mcq/13_2.jpg": "21",
+    "mcq/14_1.jpg": "22",
+    "mcq/14_2.jpg": "23",
+    "mcq/15_1.jpg": "24",
+    "mcq/15_2.jpg": "25",
+    "mcq/16_1.jpg": "26",
+    "mcq/16_2.jpg": "27",
+    "mcq/17_1.jpg": "28",
+    "ak/paper1/2/answer.jpg": "29"
+  },
+  "created_items": [
+    {
+      "path": "mcq/created_2.jpg",
+      "label": "2",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_6.jpg",
+      "label": "6",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_8.jpg",
+      "label": "8",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_9.jpg",
+      "label": "9",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_2_1.jpg",
+      "label": "2",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_6_1.jpg",
+      "label": "6",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_8_1.jpg",
+      "label": "8",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_9_1.jpg",
+      "label": "9",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_17.jpg",
+      "label": "17",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_2_2.jpg",
+      "label": "2",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_6_2.jpg",
+      "label": "6",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_8_2.jpg",
+      "label": "8",
+      "type": "mcq_question"
+    },
+    {
+      "path": "mcq/created_9_2.jpg",
+      "label": "9",
+      "type": "mcq_question"
+    },
+    {
+      "path": "ak/paper1/2/answer.jpg",
+      "label": "2",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/30/answer.jpg",
+      "label": "30",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/31/answer.jpg",
+      "label": "31",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/32/answer.jpg",
+      "label": "32",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/33/answer.jpg",
+      "label": "33",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/34/answer.jpg",
+      "label": "34",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/35/answer.jpg",
+      "label": "35",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/36/answer.jpg",
+      "label": "36",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/37/answer.jpg",
+      "label": "37",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/38/answer.jpg",
+      "label": "38",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/39/answer.jpg",
+      "label": "39",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/40/answer.jpg",
+      "label": "40",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [
+    "mcq/created_17.jpg",
+    "mcq/created_2.jpg",
+    "mcq/created_2_1.jpg",
+    "mcq/created_6.jpg",
+    "mcq/created_6_1.jpg",
+    "mcq/created_8.jpg",
+    "mcq/created_8_1.jpg",
+    "mcq/created_9.jpg",
+    "mcq/created_9_1.jpg",
+    "oe/paper1/8/question.jpg",
+    "oe/paper1/9/question.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "ak_mcq",
+    "ak_oe_paper1"
+  ],
+  "multi_crop_metadata": {
+    "ak/paper1/35/answer.jpg": [
+      {
+        "page_number": 39,
+        "x0": 63.16858407981413,
+        "y0": 72.3539360105849,
+        "x1": 126.06950619285772,
+        "y1": 406.938611204041
+      },
+      {
+        "page_number": 39,
+        "x0": 502.13672137935225,
+        "y0": 456.7248067885417,
+        "x1": 544.9628811158926,
+        "y1": 788.3651409245809
+      }
+    ]
+  }
+}

@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "papers": [
+    {
+      "id": "Science-P6-2021-SA1-Tao_Nan-2744",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2021-SA1-Tao_Nan-2744",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2021-SA2-Nanyang-2733",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2021-SA2-Nanyang-2733",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2022-SA2-Anglo_Chinese-2231",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2022-SA2-Anglo_Chinese-2231",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2022-SA2-CHIJ-2263",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2022-SA2-CHIJ-2263",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2023-CA1-Raffles_Girls-1761",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2023-CA1-Raffles_Girls-1761",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2023-SA1-Rosyth-1787",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2023-SA1-Rosyth-1787",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2023-SA2-Methodist_Girls-1801",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2023-SA2-Methodist_Girls-1801",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2024-CA1-Anglo_Chinese-3149",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2024-CA1-Anglo_Chinese-3149",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2024-SA1-Nan_Hua-3165",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2024-SA1-Nan_Hua-3165",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2024-SA2-Red_Swastika-3175",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2024-SA2-Red_Swastika-3175",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2021-SA1-Raffles_Girls-2745",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2021-SA1-Raffles_Girls-2745",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2021-SA2-Henry_Park-2749",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2021-SA2-Henry_Park-2749",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2022-SA2-Nanyang-2264",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2022-SA2-Nanyang-2264",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2022-SA2-Tao_Nan-2251",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2022-SA2-Tao_Nan-2251",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2023-CA1-Nanyang-1792",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2023-CA1-Nanyang-1792",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2023-SA1-Raffles_Girls-1790",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2023-SA1-Raffles_Girls-1790",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2023-SA2-Tao_Nan-1779",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2023-SA2-Tao_Nan-1779",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2024-CA1-Raffles_Girls-3130",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2024-CA1-Raffles_Girls-3130",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2024-SA1-Henry_Park-3137",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2024-SA1-Henry_Park-3137",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P6-2024-SA2-Nanyang-3166",
+      "level": "P6",
+      "subject": "Science",
+      "directory": "data/P6/Science/Science-P6-2024-SA2-Nanyang-3166",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2021-CA1-Henry_Park-2595",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2021-CA1-Henry_Park-2595",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2021-SA1-Nanyang-2703",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2021-SA1-Nanyang-2703",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2021-SA2-Raffles_Girls-2743",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2021-SA2-Raffles_Girls-2743",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2022-SA2-Anglo_Chinese-2273",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2022-SA2-Anglo_Chinese-2273",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2022-SA2-Tao_Nan-2262",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2022-SA2-Tao_Nan-2262",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-CA1-Rosyth-1759",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-CA1-Rosyth-1759",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-SA1-CHIJ-1803",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-SA1-CHIJ-1803",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-SA2-Nan_Hua-1827",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-SA2-Nan_Hua-1827",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2024-CA1-Raffles_Girls-3214",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2024-CA1-Raffles_Girls-3214",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2024-SA1-Red_Swastika-3189",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2024-SA1-Red_Swastika-3189",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2022-SA2-Henry_Park-2274",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2022-SA2-Henry_Park-2274",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2022-SA2-Nanyang-2275",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2022-SA2-Nanyang-2275",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-CA1-Raffles_Girls-1781",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-CA1-Raffles_Girls-1781",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-SA1-Tao_Nan-1816",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-SA1-Tao_Nan-1816",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-SA2-Methodist_Girls-1818",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-SA2-Methodist_Girls-1818",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2023-SA2-Singapore_Chinese_Girls-1823",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2023-SA2-Singapore_Chinese_Girls-1823",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2024-CA1-Nan_Hua-3215",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2024-CA1-Nan_Hua-3215",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2024-SA1-Henry_Park-3191",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2024-SA1-Henry_Park-3191",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2024-SA2-Nanyang-3206",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2024-SA2-Nanyang-3206",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P6-2024-SA2-Tao_Nan-3212",
+      "level": "P6",
+      "subject": "Maths",
+      "directory": "data/P6/Maths/Maths-P6-2024-SA2-Tao_Nan-3212",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2021-CA1-Catholic_High-2558",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2021-CA1-Catholic_High-2558",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2021-SA1-Tao_Nan-2563",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2021-SA1-Tao_Nan-2563",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2021-SA2-Rosyth-2587",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2021-SA2-Rosyth-2587",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2022-CA1-Raffles_Girls-2078",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2022-CA1-Raffles_Girls-2078",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2022-SA2-Nanyang-2042",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2022-SA2-Nanyang-2042",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-CA2-Anglo_Chinese-1681",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-CA2-Anglo_Chinese-1681",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-SA1-Nan_Hua-1674",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-SA1-Nan_Hua-1674",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-SA2-Red_Swastika-1726",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-SA2-Red_Swastika-1726",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-CA1-Maha_Bodhi-2941",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-CA1-Maha_Bodhi-2941",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-SA2-Tao_Nan-2970",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-SA2-Tao_Nan-2970",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-CA2-Nanyang-1700",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-CA2-Nanyang-1700",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-SA1-Raffles_Girls-1697",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-SA1-Raffles_Girls-1697",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-SA2-Henry_Park-1693",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-SA2-Henry_Park-1693",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-SA2-Nan_Hua-1676",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-SA2-Nan_Hua-1676",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2023-SA2-Tao_Nan-1731",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2023-SA2-Tao_Nan-1731",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-CA1-Nanyang-2914",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-CA1-Nanyang-2914",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-CA2-Rosyth-2955",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-CA2-Rosyth-2955",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-SA1-Henry_Park-2934",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-SA1-Henry_Park-2934",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-SA2-Raffles_Girls-2964",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-SA2-Raffles_Girls-2964",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Science-P5-2024-SA2-Nanyang-2967",
+      "level": "P5",
+      "subject": "Science",
+      "directory": "data/P5/Science/Science-P5-2024-SA2-Nanyang-2967",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2021-CA1-Anglo_Chinese-2519",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2021-CA1-Anglo_Chinese-2519",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2021-SA1-Methodist_Girls-2528",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2021-SA1-Methodist_Girls-2528",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2021-SA2-Tao_Nan-2559",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2021-SA2-Tao_Nan-2559",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2022-CA1-Nanyang-1992",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2022-CA1-Nanyang-1992",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2022-CA2-Rosyth-2054",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2022-CA2-Rosyth-2054",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2022-SA2-Raffles_Girls-2028",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2022-SA2-Raffles_Girls-2028",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2021-CA2-Singapore_Chinese_Girls-2536",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2021-CA2-Singapore_Chinese_Girls-2536",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2021-SA1-Red_Swastika-2524",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2021-SA1-Red_Swastika-2524",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2022-CA2-Tao_Nan-2057",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2022-CA2-Tao_Nan-2057",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2022-SA2-Rulang-1987",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2022-SA2-Rulang-1987",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2023-CA1-Anglo_Chinese-3221",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2023-CA1-Anglo_Chinese-3221",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2023-SA1-Raffles_Girls-3244",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2023-SA1-Raffles_Girls-3244",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2023-SA2-Nan_Hua-3249",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2023-SA2-Nan_Hua-3249",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2023-SA2-Tao_Nan-3251",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2023-SA2-Tao_Nan-3251",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2023-CA1-Nanyang-3231",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2023-CA1-Nanyang-3231",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2024-CA1-Methodist_Girls-3064",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2024-CA1-Methodist_Girls-3064",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2024-CA2-Rosyth-3083",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2024-CA2-Rosyth-3083",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2024-SA1-Henry_Park-3065",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2024-SA1-Henry_Park-3065",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2024-SA2-Raffles_Girls-3110",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2024-SA2-Raffles_Girls-3110",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    },
+    {
+      "id": "Maths-P5-2024-SA2-Nanyang-3090",
+      "level": "P5",
+      "subject": "Maths",
+      "directory": "data/P5/Maths/Maths-P5-2024-SA2-Nanyang-3090",
+      "source_pdf": "source.pdf",
+      "gold_manifest": "gold.json"
+    }
+  ]
+}

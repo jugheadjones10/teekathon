@@ -1,0 +1,78 @@
+{
+  "model": "gemini-3.5-flash",
+  "interaction_id": "v1_ChdVd0NVYXZmWUhLdXJnOFVQejhheXNBaxIXVXdDVWF2ZllIS3VyZzhVUHo4YXlzQWs",
+  "elapsed_seconds": 7.88943445798941,
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1092
+      },
+      {
+        "modality": "text",
+        "tokens": 397
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 1489,
+    "total_output_tokens": 351,
+    "total_thought_tokens": 803,
+    "total_tokens": 2643,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 1785
+  },
+  "detections": {
+    "page_number": 20,
+    "regions": [
+      {
+        "type": "ak_oe",
+        "question_number": "Q15",
+        "fragment_index": 1,
+        "box_2d": [
+          101,
+          144,
+          325,
+          868
+        ],
+        "needs_review": false
+      },
+      {
+        "type": "ak_oe",
+        "question_number": "Q16",
+        "fragment_index": 1,
+        "box_2d": [
+          325,
+          144,
+          513,
+          868
+        ],
+        "needs_review": false
+      },
+      {
+        "type": "ak_oe",
+        "question_number": "Q17",
+        "fragment_index": 1,
+        "box_2d": [
+          513,
+          144,
+          680,
+          868
+        ],
+        "needs_review": false
+      },
+      {
+        "type": "ak_oe",
+        "question_number": "Q18",
+        "fragment_index": 1,
+        "box_2d": [
+          678,
+          144,
+          799,
+          874
+        ],
+        "needs_review": false
+      }
+    ]
+  },
+  "raw_text": "{\n  \"page_number\": 20,\n  \"regions\": [\n    {\n      \"type\": \"ak_oe\",\n      \"box_2d\": [\n        101,\n        144,\n        325,\n        868\n      ],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"Q15\"\n    },\n    {\n      \"type\": \"ak_oe\",\n      \"box_2d\": [\n        325,\n        144,\n        513,\n        868\n      ],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"Q16\"\n    },\n    {\n      \"type\": \"ak_oe\",\n      \"box_2d\": [\n        513,\n        144,\n        680,\n        868\n      ],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"Q17\"\n    },\n    {\n      \"type\": \"ak_oe\",\n      \"box_2d\": [\n        678,\n        144,\n        799,\n        874\n      ],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"Q18\"\n    }\n  ]\n}"
+}

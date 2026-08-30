@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "mcq/5_1.jpg",
+    "oe/paper1/1/question.jpg",
+    "oe/paper1/2/question.jpg",
+    "oe/paper1/3/question.jpg",
+    "oe/paper1/4/question.jpg",
+    "oe/paper1/5/question.jpg",
+    "oe/paper1/6/question.jpg",
+    "oe/paper1/7/question.jpg",
+    "oe/paper1/9.1/question.jpg",
+    "oe/paper1/10/question.jpg",
+    "oe/paper1/12/question.jpg",
+    "oe/paper1/13/question.jpg",
+    "oe/paper1/14/question.jpg",
+    "oe/paper1/15/question.jpg",
+    "oe/paper1/6.1/question.jpg",
+    "oe/paper1/17.1/question.jpg",
+    "oe/paper1/16/question.jpg",
+    "oe/paper1/17/question.jpg",
+    "oe/paper1/18/question.jpg",
+    "oe/paper1/19/question.jpg",
+    "oe/paper1/20/question.jpg",
+    "oe/paper1/21/question.jpg",
+    "oe/paper1/22/question.jpg",
+    "oe/paper1/23/question.jpg",
+    "oe/paper1/24/question.jpg",
+    "oe/paper1/25/question.jpg",
+    "oe/paper1/26/question.jpg",
+    "oe/paper1/27/question.jpg",
+    "oe/paper1/28/question.jpg",
+    "oe/paper1/29/question.jpg",
+    "oe/paper1/30/question.jpg"
+  ],
+  "label_edits": {
+    "oe/paper1/8.1/question.jpg": "8",
+    "oe/paper1/9.1/question.jpg": "9",
+    "oe/paper1/6.1/question.jpg": "16",
+    "oe/paper1/17.1/question.jpg": "17",
+    "mcq/2_1.jpg": "1",
+    "mcq/2_2.jpg": "2",
+    "mcq/2_3.jpg": "3",
+    "mcq/2_4.jpg": "4",
+    "mcq/2_5.jpg": "5",
+    "mcq/3_1.jpg": "6",
+    "mcq/3_2.jpg": "7",
+    "mcq/3_3.jpg": "8",
+    "mcq/3_4.jpg": "9",
+    "mcq/3_5.jpg": "10",
+    "mcq/4_1.jpg": "11",
+    "mcq/4_2.jpg": "12",
+    "mcq/4_3.jpg": "13",
+    "mcq/4_4.jpg": "14",
+    "mcq/5_1.jpg": "15"
+  },
+  "created_items": [
+    {
+      "path": "oe/paper2/1/question.jpg",
+      "label": "1",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/2/question.jpg",
+      "label": "2",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/3/question.jpg",
+      "label": "3",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/4/question.jpg",
+      "label": "4",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/5/question.jpg",
+      "label": "5",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/6/question.jpg",
+      "label": "6",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/7/question.jpg",
+      "label": "7",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/8/question.jpg",
+      "label": "8",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/9/question.jpg",
+      "label": "9",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/10/question.jpg",
+      "label": "10",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/11/question.jpg",
+      "label": "11",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/12/question.jpg",
+      "label": "12",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/13/question.jpg",
+      "label": "13",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/14/question.jpg",
+      "label": "14",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/15/question.jpg",
+      "label": "15",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/16/question.jpg",
+      "label": "16",
+      "type": "oe_question"
+    },
+    {
+      "path": "oe/paper2/17/question.jpg",
+      "label": "17",
+      "type": "oe_question"
+    }
+  ],
+  "deleted_items": [
+    "mcq/1_1.jpg",
+    "oe/paper1/7.1/question.jpg",
+    "oe/paper1/8/question.jpg",
+    "oe/paper1/9/question.jpg",
+    "oe/paper1/16.1/question.jpg",
+    "oe/paper1/18.1/question.jpg",
+    "oe/paper1/31/question.jpg",
+    "oe/paper1/1/question.jpg",
+    "oe/paper1/2/question.jpg",
+    "oe/paper1/3/question.jpg",
+    "oe/paper1/4/question.jpg",
+    "oe/paper1/5/question.jpg",
+    "oe/paper1/6/question.jpg",
+    "oe/paper1/7/question.jpg",
+    "oe/paper1/8.1/question.jpg",
+    "oe/paper1/9.1/question.jpg",
+    "oe/paper1/10/question.jpg",
+    "oe/paper1/11/question.jpg",
+    "oe/paper1/12/question.jpg",
+    "oe/paper1/13/question.jpg",
+    "oe/paper1/14/question.jpg",
+    "oe/paper1/15/question.jpg",
+    "oe/paper1/6.1/question.jpg",
+    "oe/paper1/17.1/question.jpg",
+    "ak/paper1/1/answer.jpg",
+    "ak/paper1/4/answer.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "oe_paper2",
+    "ak_mcq",
+    "ak_oe_paper1",
+    "ak_oe_paper2"
+  ],
+  "multi_crop_metadata": {},
+  "ai_metadata": {}
+}

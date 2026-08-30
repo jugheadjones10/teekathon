@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "ak/paper1/2/answer.jpg",
+    "ak/paper1/21/answer.jpg"
+  ],
+  "label_edits": {
+    "ak/paper1/2/answer.jpg": "19",
+    "mcq/2_1.jpg": "1",
+    "mcq/2_2.jpg": "2",
+    "mcq/3_1.jpg": "3",
+    "mcq/3_2.jpg": "4",
+    "mcq/4_1.jpg": "5",
+    "mcq/4_2.jpg": "6",
+    "mcq/5_1.jpg": "7",
+    "mcq/5_2.jpg": "8",
+    "mcq/6_1.jpg": "9",
+    "mcq/7_1.jpg": "10",
+    "mcq/7_2.jpg": "11",
+    "mcq/8_1.jpg": "12",
+    "mcq/8_2.jpg": "13",
+    "mcq/9_1.jpg": "14"
+  },
+  "created_items": [
+    {
+      "path": "ak/mcq/created_1.jpg",
+      "label": "1",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/paper1/21/answer.jpg",
+      "label": "21",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/15/answer.jpg",
+      "label": "15",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/16/answer.jpg",
+      "label": "16",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/17/answer.jpg",
+      "label": "17",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/18/answer.jpg",
+      "label": "18",
+      "type": "ak_oe"
+    },
+    {
+      "path": "ak/paper1/20/answer.jpg",
+      "label": "20",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [
+    "mcq/1_1.jpg"
+  ],
+  "moved_items": [],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "ak_mcq",
+    "ak_oe_paper1"
+  ],
+  "multi_crop_metadata": {
+    "ak/paper1/21/answer.jpg": [
+      {
+        "page_number": 23,
+        "x0": 298.2823329878451,
+        "y0": 126.8375663211707,
+        "x1": 459.7989635352869,
+        "y1": 714.2645703986689
+      },
+      {
+        "page_number": 24,
+        "x0": 425.5140676528786,
+        "y0": 110.66598345655518,
+        "x1": 480.5493639875625,
+        "y1": 702.878543575418
+      }
+    ],
+    "ak/paper1/2/answer.jpg": [
+      {
+        "page_number": 22,
+        "x0": 98.92893621030811,
+        "y0": 125.02265158064881,
+        "x1": 152.76781305945545,
+        "y1": 712.4496556581471
+      },
+      {
+        "page_number": 23,
+        "x0": 120.01582964289081,
+        "y0": 122.05201027980604,
+        "x1": 167.87260906435503,
+        "y1": 716.6573484193511
+      }
+    ]
+  },
+  "ai_metadata": {}
+}

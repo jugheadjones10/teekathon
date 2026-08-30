@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "id": "Maths-P5-2021-SA1-Red_Swastika-2524",
+  "filename": "Maths-P5-2021-SA1-Red_Swastika-2524.pdf",
+  "level": "P5",
+  "subject": "Maths",
+  "source_pdf": "source.pdf",
+  "regions": [
+    {
+      "type": "mcq_question",
+      "label": "1",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/1/01.jpg",
+        "gold/mcq_question/paper1/1/02.jpg",
+        "gold/mcq_question/paper1/1/03.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/1_1.jpg",
+        "mcq/1_2.jpg",
+        "mcq/1_3.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "2",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/2/01.jpg",
+        "gold/mcq_question/paper1/2/02.jpg",
+        "gold/mcq_question/paper1/2/03.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/2_1.jpg",
+        "mcq/2_2.jpg",
+        "mcq/2_3.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "3",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/3/01.jpg",
+        "gold/mcq_question/paper1/3/02.jpg",
+        "gold/mcq_question/paper1/3/03.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/3_1.jpg",
+        "mcq/3_2.jpg",
+        "mcq/3_3.jpg"
+      ]
+    },
+    {
+      "type": "mcq_question",
+      "label": "4",
+      "paper": 1,
+      "fragments": [
+        "gold/mcq_question/paper1/4/01.jpg"
+      ],
+      "trex_source_paths": [
+        "mcq/4_1.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "11",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/11/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/11/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "12",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/12/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/12/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "13",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/13/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/13/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "14",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/14/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/14/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "15",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/15/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/15/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "16",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/16/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/16/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "17",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/17/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/17/question.jpg"
+      ]
+    },
+    {
+      "type": "oe_question",
+      "label": "18",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_question/paper1/18/01.jpg"
+      ],
+      "trex_source_paths": [
+        "oe/paper1/18/question.jpg"
+      ]
+    },
+    {
+      "type": "mcq_answer_key",
+      "label": null,
+      "paper": null,
+      "fragments": [
+        "gold/mcq_answer_key/all/unlabelled/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/mcq/AK.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "11",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/11/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/11/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "12",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/12/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/12/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "13",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/13/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/13/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "14",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/14/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/14/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "15",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/15/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/15/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "16",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/16/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/16/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "17",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/17/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/17/answer.jpg"
+      ]
+    },
+    {
+      "type": "oe_answer_key",
+      "label": "18",
+      "paper": 1,
+      "fragments": [
+        "gold/oe_answer_key/paper1/18/01.jpg"
+      ],
+      "trex_source_paths": [
+        "ak/paper1/18/answer.jpg"
+      ]
+    }
+  ]
+}

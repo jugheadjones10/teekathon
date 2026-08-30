@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "crop_edits": [
+    "oe/paper1/20/question.jpg",
+    "oe/paper1/30/question.jpg",
+    "oe/paper2/5/question.jpg",
+    "ak/mcq/AK.1.jpg"
+  ],
+  "label_edits": {
+    "oe/paper2/1/question.jpg": "2",
+    "oe/paper2/2/question.jpg": "3"
+  },
+  "created_items": [
+    {
+      "path": "oe/paper2/1/question.jpg",
+      "label": "1",
+      "type": "oe_question"
+    }
+  ],
+  "deleted_items": [
+    "ak/mcq/AK.jpg"
+  ],
+  "active_sections": null
+}

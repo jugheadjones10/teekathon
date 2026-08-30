@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "crop_edits": [
+    "mcq/6_1.jpg"
+  ],
+  "label_edits": {},
+  "created_items": [
+    {
+      "path": "ak/mcq/created_1.jpg",
+      "label": "1",
+      "type": "ak_mcq"
+    },
+    {
+      "path": "ak/paper1/9/answer.jpg",
+      "label": "9",
+      "type": "ak_oe"
+    }
+  ],
+  "deleted_items": [],
+  "moved_items": [],
+  "active_sections": [
+    "mcq_questions",
+    "oe_paper1",
+    "ak_mcq",
+    "ak_oe_paper1"
+  ],
+  "multi_crop_metadata": {}
+}

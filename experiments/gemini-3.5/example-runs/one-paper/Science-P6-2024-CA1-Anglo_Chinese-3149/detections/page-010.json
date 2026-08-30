@@ -1,0 +1,42 @@
+{
+  "model": "gemini-3.5-flash",
+  "interaction_id": "v1_ChdDUUNVYXZLQkVLRFJnOFVQMU1MaThRRRIXQ1FDVWF2S0JFS0RSZzhVUDFNTGk4UUU",
+  "elapsed_seconds": 6.717460541985929,
+  "usage": {
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 1092
+      },
+      {
+        "modality": "text",
+        "tokens": 397
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 1489,
+    "total_output_tokens": 97,
+    "total_thought_tokens": 575,
+    "total_tokens": 2161,
+    "total_tool_use_tokens": 0,
+    "raw_prompt_token": 1785
+  },
+  "detections": {
+    "page_number": 10,
+    "regions": [
+      {
+        "type": "oe_question",
+        "question_number": "12",
+        "fragment_index": 1,
+        "box_2d": [
+          145,
+          165,
+          792,
+          813
+        ],
+        "needs_review": false
+      }
+    ]
+  },
+  "raw_text": "{\n  \"page_number\": 10,\n  \"regions\": [\n    {\n      \"type\": \"oe_question\",\n      \"box_2d\": [145, 165, 792, 813],\n      \"fragment_index\": 1,\n      \"needs_review\": false,\n      \"question_number\": \"12\"\n    }\n  ]\n}"
+}
