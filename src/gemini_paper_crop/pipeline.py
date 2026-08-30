@@ -98,10 +98,14 @@ def run_paper(
         detection_path = detections_dir / f"page-{rendered.page_number:03d}.json"
         was_resumed = False
         try:
+            call = None
             if resume and detection_path.exists():
-                call = _read_saved_call(detection_path)
-                was_resumed = True
-            else:
+                try:
+                    call = _read_saved_call(detection_path)
+                    was_resumed = True
+                except (json.JSONDecodeError, KeyError, TypeError, ValueError):
+                    pass
+            if call is None:
                 call = detector.detect_page(
                     rendered.path,
                     page_number=rendered.page_number,

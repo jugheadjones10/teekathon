@@ -50,3 +50,14 @@ def test_page_detection_json_schema_uses_homogeneous_arrays() -> None:
     schema_text = json.dumps(PageDetections.model_json_schema())
 
     assert "prefixItems" not in schema_text
+
+
+def test_page_detections_rejects_an_unreasonable_region_count() -> None:
+    region = DetectedRegion(
+        type="oe_question",
+        question_number="1",
+        box_2d=[10, 10, 20, 20],
+    )
+
+    with pytest.raises(ValidationError):
+        PageDetections(page_number=1, regions=[region] * 101)

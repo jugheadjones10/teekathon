@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from gemini_paper_crop.cli import prepare_run_dir, resolve_papers
+from gemini_paper_crop.cli import paper_output_slug, prepare_run_dir, resolve_papers
 
 
 def test_resolve_papers_uses_all_sorted_pdfs_by_default(tmp_path: Path) -> None:
@@ -37,3 +37,8 @@ def test_prepare_run_dir_reuses_existing_directory_for_resume(tmp_path: Path) ->
     existing.mkdir()
 
     assert prepare_run_dir(tmp_path, "experiment", resume=True) == existing
+
+
+def test_paper_output_slug_removes_path_control_characters() -> None:
+    assert paper_output_slug(Path("Science P6 (A).pdf")) == "Science-P6-A"
+    assert paper_output_slug(Path("...pdf")) == "paper"

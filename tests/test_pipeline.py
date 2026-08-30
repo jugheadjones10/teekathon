@@ -40,6 +40,15 @@ class FakeDetector:
         )
 
 
+class FailingDetector:
+    model = "fake-model"
+
+    def detect_page(
+        self, page_path: Path, *, page_number: int, prompt: str
+    ) -> DetectionCall:
+        raise RuntimeError("temporary failure")
+
+
 def make_pdf(path: Path, page_count: int = 1) -> None:
     document = pymupdf.open()
     for _ in range(page_count):
@@ -94,6 +103,34 @@ def test_run_paper_resume_reuses_saved_detection(tmp_path: Path) -> None:
 
     assert detector.call_count == 1
     assert resumed.pages[0].resumed is True
+
+
+def test_run_paper_resume_retries_a_saved_error(tmp_path: Path) -> None:
+    pdf_path = tmp_path / "paper.pdf"
+    make_pdf(pdf_path)
+    paper_dir = tmp_path / "run" / "paper"
+    failed = run_paper(
+        pdf_path,
+        paper_dir,
+        detector=FailingDetector(),
+        prompt="Find regions",
+        dpi=72,
+    )
+    detector = FakeDetector()
+
+    resumed = run_paper(
+        pdf_path,
+        paper_dir,
+        detector=detector,
+        prompt="Find regions",
+        dpi=72,
+        resume=True,
+    )
+
+    assert failed.pages[0].error is not None
+    assert detector.call_count == 1
+    assert resumed.pages[0].error is None
+    assert resumed.pages[0].resumed is False
 
 
 def test_write_paper_report_links_visual_artifacts(tmp_path: Path) -> None:

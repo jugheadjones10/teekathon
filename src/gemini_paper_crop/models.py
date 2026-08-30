@@ -9,6 +9,7 @@ class DetectedRegion(BaseModel):
     type: RegionType = Field(description="The kind of question or answer region.")
     question_number: str | None = Field(
         default=None,
+        max_length=32,
         description="Printed question number, or null for an MCQ answer table.",
     )
     fragment_index: int = Field(
@@ -41,4 +42,4 @@ class DetectedRegion(BaseModel):
 
 class PageDetections(BaseModel):
     page_number: int = Field(ge=1, description="One-based source PDF page number.")
-    regions: list[DetectedRegion] = Field(default_factory=list)
+    regions: list[DetectedRegion] = Field(default_factory=list, max_length=100)

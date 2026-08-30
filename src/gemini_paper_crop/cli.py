@@ -25,6 +25,11 @@ def resolve_papers(requested: list[Path], papers_dir: Path) -> list[Path]:
     return resolved
 
 
+def paper_output_slug(pdf_path: Path) -> str:
+    slug = re.sub(r"[^A-Za-z0-9._-]+", "-", pdf_path.stem).strip(".-_")
+    return slug or "paper"
+
+
 def prepare_run_dir(output_root: Path, run_name: str, *, resume: bool) -> Path:
     if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", run_name):
         raise ValueError(
@@ -94,7 +99,7 @@ def main(argv: list[str] | None = None) -> int:
     results: list[PaperRunResult] = []
     for index, pdf_path in enumerate(papers, start=1):
         print(f"[{index}/{len(papers)}] {pdf_path.name}", flush=True)
-        paper_dir = run_dir / pdf_path.stem
+        paper_dir = run_dir / paper_output_slug(pdf_path)
         result = run_paper(
             pdf_path,
             paper_dir,
