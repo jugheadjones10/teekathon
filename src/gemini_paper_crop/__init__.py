@@ -1,0 +1,1 @@
+"""Gemini paper cropping experiment."""
